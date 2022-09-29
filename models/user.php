@@ -65,7 +65,7 @@
         ];
         $mail->Username = 'dawexemplo2014@gmail.com'; 
         $mail->Password = 'tcycdlrjmtbngpie';
-        $mail->setFrom('exemplo2014@gmail.com','Adm Site');
+        $mail->setFrom('exemploemail@gmail.com','Adm Site');
         $mail->addAddress($email);
         $mail->CharSet = "utf-8";
         if($email_resposta) {
